@@ -17,3 +17,48 @@ composé de:
 -cleaner mon projet react
 -créer les elements de bases
 
+//////////// 
+Model:
+
+objectif:
+-> Faire une fonction (qui sera appellé quand on clique sur le bouton)
+
+
+////////////
+
+- créer un tableau (vide) "mot coreen"
+- créer un tableau (vide) "traduction"
+
+
+#division en tableau de mots et de traduction
+- capter la chaine de caractère
+- Diviser ma chaine de caractère en tableau (de lignes)
+- pour chaque élement du tableau (donc pour chaque ligne):
+    - diviser la chaine de caractère en un tableau (en fonction du = au milieu)
+    - le mot à la première position je le stocke dans le tableau des mots coréens
+    - le mot à la deuxième position je le stocke dans le tableau des traductions
+
+#constitution des strings pour les textarea
+objectif:
+[소비자, 소비자, 소비자] 
+
+=>
+
+"소비자
+소비자
+소비자
+"
+
+- créer une variable "string finale pour les mots"
+
+- pour chaque element du tableau (donc pour chaque mot):
+    -ajouter à un string finale et ajouter un retour à la ligne.
+- mettre la string finale dans le textarea mots
+
+#constitution des strings pour les textarea 
+
+- créer une variable "string finale pour les traductions"
+
+- pour chaque element du tableau (donc pour chaque traduction):
+    -ajouter à un string finale et ajouter un retour à la ligne.
+- mettre la string finale dans le textarea traduction
