@@ -5,6 +5,7 @@ class App extends Component {
     super(props);
 
     this.mainList = React.createRef();
+    this.koreanTextarea = React.createRef();
   }
 
   divide = () => {
@@ -20,7 +21,13 @@ class App extends Component {
       translations.push(tab[1]);
     }
 
-    console.log(translations);
+    let finalStringKorean = '';
+
+    for (let i = 0; i < koreanWords.length; i++) {
+      finalStringKorean = finalStringKorean + koreanWords[i] + '\n';
+    }
+
+    this.koreanTextarea.current.value = finalStringKorean;
   };
 
   render() {
@@ -28,7 +35,12 @@ class App extends Component {
       <div>
         <div>
           <textarea rows="30" cols="30" ref={this.mainList} />
-          <textarea rows="30" cols="20" style={{ marginLeft: '200px' }} />
+          <textarea
+            rows="30"
+            cols="20"
+            style={{ marginLeft: '200px' }}
+            ref={this.koreanTextarea}
+          />
           <textarea rows="30" cols="20" style={{ marginLeft: '100px' }} />
         </div>
         <button type="button" onClick={this.divide}>

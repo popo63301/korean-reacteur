@@ -52,7 +52,7 @@ objectif:
 - créer une variable "string finale pour les mots"
 
 - pour chaque element du tableau (donc pour chaque mot):
-    -ajouter à un string finale et ajouter un retour à la ligne.
+    -ajouter le mot à la liste koreanWords et ajouter un retour à la ligne.
 - mettre la string finale dans le textarea mots
 
 #constitution des strings pour les textarea 
@@ -60,5 +60,5 @@ objectif:
 - créer une variable "string finale pour les traductions"
 
 - pour chaque element du tableau (donc pour chaque traduction):
-    -ajouter à un string finale et ajouter un retour à la ligne.
+    -ajouter la traduction à la translation list et ajouter un retour à la ligne.
 - mettre la string finale dans le textarea traduction
