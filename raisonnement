@@ -1,0 +1,19 @@
+Raisonnement:
+
+
+2 grosses parties dans une app:
+->Vue : interface utilisateur
+->Model : gestion des données 
+
+
+////////////
+Vue:
+
+composé de:
+-3 textarea 
+-1 button
+
+
+-cleaner mon projet react
+-créer les elements de bases
+
